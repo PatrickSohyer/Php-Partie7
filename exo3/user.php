@@ -8,7 +8,7 @@
         
        <?php 
        
-       if (isset($_GET['lastname']) and ($_GET['firstname'])) {
+       if (isset($_GET['lastname']) and ($_GET['firstname'])) { // je vérifie si Lastname et firstname existe
            echo 'Bonjour' . ' ' . $_GET['lastname'] . ' ' . $_GET['firstname'];
        } else {
            echo 'Je n\'ai pas compris votre demande.';
